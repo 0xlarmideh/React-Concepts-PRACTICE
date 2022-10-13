@@ -1,5 +1,72 @@
-main {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
   text-align: center;
-  vertical-align: center;
-  line-height: 100vh
+  padding: 20px;
+  background: black;
+  color: white;
+  font-weight:400;
+  font-size:1.3rem;
+}
+
+.page-container {
+  margin:40px;
+}
+.main-content {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items:center;
+  margin-bottom:40px;
+}
+
+.card-details {
+  display:flex;
+  flex-direction: column;
+}
+
+.location-details {
+  display:flex;
+  gap:10px;
+}
+
+.fa-location-dot {
+  color:orange;
+}
+
+.loc {
+  text-transform: uppercase;
+}
+
+.location-details a{
+  color:grey;
+  font-weight:200;
+  font-size:1rem;
+}
+
+.location-picture {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.title {
+  font-weight:500;
+  font-size: 2.4rem;
+  margin: 15px 0 25px 0;
+}
+
+.date {
+  font-weight:700;
+  font-size: 1rem;
+  margin-bottom:10px;
 }
