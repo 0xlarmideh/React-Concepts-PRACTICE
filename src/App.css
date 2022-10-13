@@ -35,6 +35,7 @@ body {
 
 .location-details {
   display:flex;
+  align-items:center;
   gap:10px;
 }
 
@@ -69,4 +70,29 @@ body {
   font-weight:700;
   font-size: 1rem;
   margin-bottom:10px;
+}
+
+@media only screen and (max-width: 600px){
+	.page-container {   
+  margin:20px;
+  margin-top:30px;
+}
+  
+  .location-picture {
+  width: 150px;
+  height: 250px;
+  }
+
+  .title {
+  font-weight:600;
+  font-size: 1.5rem;
+  margin: 10px 0 15px 0;
+  }
+
+  .loc, .location-details a  {
+  font-size:12px;
+  }
+  .description {
+    font-size:14px;
+  }
 }
